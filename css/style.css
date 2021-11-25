@@ -124,3 +124,11 @@ span {
   color: rgb(255, 43, 88);
   font-weight: 700;
 }
+
+.footer_p:first-child {
+  margin-left: 165px;
+}
+
+.footer_p:last-child {
+  margin-right: 182px;
+}
