@@ -2,3 +2,133 @@
   margin: 0;
   padding: 0;
 }
+
+.box {
+  width: 1500px;
+  height: 866px;
+  margin: auto;
+  background: url(../img/img.png) no-repeat;
+  font-family: 'Raleway', sans-serif;
+  color: #262626;
+}
+
+.box_header_h1 {
+  width: 370px;
+  text-align: center;
+  margin: auto;
+  padding-top: 135px;
+}
+
+.header_h1 {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 25px;
+}
+
+.header_p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  padding-top: 80px;
+}
+
+.form {
+  width: 500px;
+  display: inline-block;
+  margin: 45px 0 0 165px;
+}
+
+.form_item {
+  width: 500px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  background-color: rgba(0, 196, 196, 0.5);
+}
+
+.form_item:focus {
+  background-color: rgb(0, 196, 196);
+  border-left: 5px solid rgb(53, 91, 130);
+}
+.form_item ::before {
+  content: '';
+  display: block;
+  background-color: rgb(53, 91, 130);
+  width: 5px;
+  height: 50px;
+}
+
+.form_item:last-child {
+  height: 250px;
+  padding-top: 20px;
+  resize: none;
+}
+
+.form_item:nth-child(n + 2) {
+  margin-top: 15px;
+}
+
+.box_information {
+  width: 315px;
+  float: right;
+  margin: 40px 350px 0 0;
+}
+
+.information_item::first-line {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.information_item {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.information_item:nth-child(n + 2) {
+  padding-top: 16px;
+}
+
+.footer {
+  width: 1500px;
+  height: 90px;
+  background-color: rgb(38, 38, 38);
+  color: rgb(185, 185, 185);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.footer_p,
+.footer_h2 {
+  display: inline-block;
+}
+
+.footer_h2 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.footer_p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+span {
+  color: rgb(255, 43, 88);
+  font-weight: 700;
+}
+
+.footer_p:first-child {
+  margin-left: 165px;
+}
+
+.footer_p:last-child {
+  margin-right: 182px;
+}
